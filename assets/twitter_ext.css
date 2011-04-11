@@ -1,0 +1,31 @@
+a.twitter_ext_button, a.twitter_ext_send, a.twitter_ext_cancel {
+    background-color: #597bc6;
+    color: #fff;
+    padding: 3px;
+    margin: 0;
+    text-decoration: none;
+    text-shadow: none;
+    cursor: pointer;
+    width:264px;
+    display:block;
+    text-align:center;
+}
+
+a.twitter_ext_send, a.twitter_ext_cancel{width:110px; padding:1px; margin-top:10px; margin-left:10px; float:right;}
+
+a.twitter_ext_send.tweeting{color:#cccccc; background:url(ajax-loader.gif) 3px 1px no-repeat #597bc6}
+a.twitter_ext_send.tweeting:hover{background-color:#597bc6}
+a.twitter_ext_send.tweeted{color:#cccccc}
+a.twitter_ext_send.tweeted:hover{background-color:#597bc6}
+
+a.twitter_ext_cancel{background:#394f7f}
+a.twitter_ext_button:hover,
+a.twitter_ext_send:hover,
+a.twitter_ext_cancel:hover,
+a.twitter_ext_button.active {background-color: #222;}
+
+.twitter_ext_tweetbox {padding:10px;background-color:#141414; width:250px; height:100px;display:none;overflow:hidden;}
+.twitter_ext_tweetbox textarea{font-family:verdana;width:250px; height:60px; font-size:10px}
+.twitter_ext_tweetbox input{display:block;}
+
+.field-autotweet .twitter_ext_send{margin-bottom:10px}
