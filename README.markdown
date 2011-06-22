@@ -5,6 +5,10 @@
 - Build Date: 11-4-2011
 - Requirements: Symphony 2.*
 
+## Description
+
+Fairly blunt filter to protect Symphony events from common cross-site scripting (XSS) attacks.
+
 ## Installation
 
 1. Place the `twitter` folder in your Symphony `extensions` directory.
